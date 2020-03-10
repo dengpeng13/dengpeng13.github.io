@@ -1,0 +1,61 @@
+.main {
+    width: 100%;
+    height: 100vh;
+
+    .box {
+        width: 100%;
+        height: 0.88rem;
+        display: flex;
+        text-align: center;
+        line-height: 0.88rem;
+        background: white;
+
+        div {
+            flex: 1;
+        }
+    }
+
+    .guess-list {
+        width: 100%;
+        height: 5.3rem;
+
+        // display: flex;
+        .list {
+            width: 3.5rem;
+            height: 5.3rem;
+            float: left;
+            padding: 8px 5px;
+
+            // box-sizing: border-box;
+
+            img {
+                width: 3.5rem;
+                height: 3.82rem;
+            }
+
+            .botom {
+                width: 3.5rem;
+                height: 1.64rem;
+                background: white;
+                padding: 8px 8px 16px 8px;
+                box-sizing: border-box;
+
+                .list-sp {
+                    font-size: 13px;
+                    width: 100%;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                   
+
+                    // margin-top: 5px;
+               
+                }
+
+                .price {
+                    color: #FF734C;
+                }
+            }
+        }
+    }
+}

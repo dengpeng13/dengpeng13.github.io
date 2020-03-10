@@ -1,0 +1,79 @@
+
+.box{
+    background: white;
+    width: 100%;
+    height: 100vh;
+}
+.l-btn {
+    position: absolute !important;
+    right: 0;
+    bottom: 10px;
+}
+
+.logo {
+    width: 100%;
+    height: 0.48rem;
+    // padding-top: 0.68rem;
+    // box-sizing: border-box;
+    margin: 0.4rem 0;
+    position: relative;
+    z-index: 5;
+
+    img {
+        width: 3.6rem;
+        height: 0.48rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+.btn {
+    width: 100%;
+    height: 0.84rem;
+    border-radius: 1.5rem;
+    background: #ff734c;
+}
+
+.btn-f {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.68rem;
+    box-sizing: border-box;
+}
+
+
+
+
+.change-box{
+    width: 100%;
+    height: 1rem;
+     position: relative;
+
+    .change {
+        display: flex;
+        width: 100%;
+        height: 1rem;
+        padding: 1.6rem 0 0 0.4rem;
+        box-sizing: border-box;
+     
+    
+        p {
+            flex: 1;
+            height: 0.48rem;
+            text-align: center;
+         
+           
+        }
+    }
+    .deng {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        position: absolute;
+        top: 1rem;
+        color: #d3d3d3;
+
+    }
+}

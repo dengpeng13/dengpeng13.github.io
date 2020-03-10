@@ -1,0 +1,123 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0.1rem 0.2rem;
+    width: 100%;
+    line-height: 0.4rem;
+    border-bottom: 1px solid #f1f1f1;
+    position: sticky;
+    top: 0;
+    .back{
+        width: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 0.24rem;
+            height: 0.24rem;
+        }
+    }
+    .ipt{
+        width: 80%;
+        display: flex;
+        background-color: #999;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.2rem;
+        b{
+            width: 10%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 0.24rem;
+                height: 0.24rem;
+            }
+        }
+        input{
+            width: 80%;
+            height: 0.3rem;
+            font-size: 0.14rem;
+            border: 0;
+            outline:none;
+            background-color: #999;
+        }
+    }
+    span{
+        flex: 1;
+        font-size: 0.14rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #666;
+    }
+    
+}
+.pop{
+    box-sizing: border-box;
+    padding: 0 0.2rem;
+    border-bottom: 5px solid #f1f1f1;
+    h5{
+        display: flex;
+        line-height: 0.4rem;
+    }
+    p{
+        display: flex;
+        margin-bottom: 0.2rem;
+        span{
+            padding: 0.1rem 0.1rem;
+            font-size: 0.14rem;
+            color: #666;
+            margin-right: 0.2rem;
+            border: 1px solid #cccccc;
+        }
+    }
+}
+
+
+
+.guess-list {
+    width: 100%;
+
+
+    // display: flex;
+    .list {
+        width: 3.5rem;
+        height: 5.3rem;
+        float: left;
+        padding: 8px 5px;
+
+        // box-sizing: border-box;
+
+        img {
+            width: 3.5rem;
+            height: 3.82rem;
+        }
+
+        .botom {
+            width: 3.5rem;
+            height: 1.64rem;
+            background: white;
+            padding: 8px 8px 16px 8px;
+            box-sizing: border-box;
+
+            .list-sp {
+                font-size: 13px;
+                width: 100%;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+               
+
+                // margin-top: 5px;
+           
+            }
+
+            .price {
+                color: #FF734C;
+            }
+        }
+    }
+}
