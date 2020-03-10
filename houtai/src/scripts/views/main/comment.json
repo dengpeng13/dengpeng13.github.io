@@ -1,0 +1,90 @@
+[
+    {
+        "title": "最终,还是踏上了伊朗的征程.....",
+        "hot":0,
+        "img": "http://img.deyi.com/forum/202001/08/193159dc68b8492edf7a9e.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk=,size_20,text_5b6X5oSP55Sf5rS7,color_FFFFFF,shadow_50,t_100,g_se,x_10,y_12",
+        "news":"迫于生活压力最终！还是踏上了伊朗的征程，准备接下8000万美元的单子，相比于生活的压力，我还是选择相信AK的后坐力！如果这个时候你发信息给我说“我一直爱着你.....我觉得我还能回头！！",
+        "comment": [
+            {
+                "author": "尹鹏",
+                "avatar": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1091634812,2497786779&fm=26&gp=0.jpg",
+                "content": "兄弟带我一个",
+                "datetime": "2013-11-11 13:13:14"
+                
+            },
+            {
+                "author": "千锋古天乐",
+                "avatar": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2772259711,168355321&fm=15&gp=0.jpg",
+                "content": "是兄弟就等我",
+                "datetime": "2017-1-5 3:13:54"
+            },
+            {
+                "author": "沙雕",
+                "avatar": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4028890717,32967708&fm=26&gp=0.jpg",
+                "content": "是兄弟就等我",
+                "datetime": "2015-8-18 9:1:4"
+            }
+        ]
+    },
+    {
+        "title": "过年回去表哥说在做前端,真相竟是......",
+        "hot":0,
+        "img": "http://5b0988e595225.cdn.sohucs.com/images/20190711/a5eb97e9a7524d63b550956701c220a5.gif",
+        "news":"每年都听说表哥年薪百万,朋友圈和空间发的都是阿里巴巴,百度的办公大楼,到处都是高楼大厦,今年回家看到表哥,他似乎苍老了不少,在我的一再询问下,真相竟是在阿里巴巴和百度楼下卖炒粉",
+        "comment": [
+            {
+                "author": "尹鹏",
+                "avatar": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1091634812,2497786779&fm=26&gp=0.jpg",
+                "content": "我的炒粉都等半个小时了,赶紧的",
+                "datetime": "2013-11-11 13:13:14"
+            },
+            {
+                "author": "千锋古天乐",
+                "avatar": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2772259711,168355321&fm=15&gp=0.jpg",
+                "content": "穷且益坚,不坠青云之志.加油",
+                "datetime": "2017-1-5 3:13:54"
+            },
+            {
+                "author": "沙雕",
+                "avatar": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4028890717,32967708&fm=26&gp=0.jpg",
+                "content": "炒的什么玩意儿,难吃的一批",
+                "datetime": "2015-8-18 9:1:4"
+            }
+        ]
+    }
+]
+
+
+
+
+
+db.forums.update({"_id": ObjectId("5e16a7273082a7594fea7f36")},{$pull:{"comment":{"author":"二狗"}}})
+
+
+
+
+Request URL: http://ks.1000phone.net/examController/queryExamPaperInfo
+Request Method: POST
+Status Code: 200 
+Remote Address: 47.105.113.139:80
+Referrer Policy: no-referrer-when-downgrade
+Connection: keep-alive
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 10 Jan 2020 06:34:27 GMT
+Server: nginx
+Transfer-Encoding: chunked
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 36
+Content-Type: application/json;charset=UTF-8
+Cookie: JSESSIONID=45AF4D146B412FCF53BAA3A6831F5D64
+Host: ks.1000phone.net
+Origin: http://ks.1000phone.net
+Referer: http://ks.1000phone.net/examController/onlineExam?id=4476&subjectId=13
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36
+X-Requested-With: XMLHttpRequest
+{paperId: "172539", examId: "4476"}
+paperId: "172539"
+examId: "4476"

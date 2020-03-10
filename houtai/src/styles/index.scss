@@ -1,0 +1,49 @@
+
+
+@import "animate.css";
+@import "common";
+@import "./fonts/iconfont.css";
+@import "./antd.css";
+
+
+$base_ft:20px;  /*no*/
+$base_color:red;
+
+
+.one{
+    font-size: 20px;
+    color: lightcoral;
+}
+.happy{
+    font-size: 30px;
+    background:-webkit-linear-gradient(left,green 20%,pink 40%,blue 60%,orange 80%,red 100%);
+    text-align: center;
+}
+
+
+.my-btn{
+    border:none;
+    outline:none;
+    padding:10px;
+    border:1px solid darkblue;
+    border-radius: 10px;
+}
+
+.btn{
+    color:#fff;
+    background: darkmagenta;
+    font-size: 24px;
+}
+
+.move-in{
+    animation:zoomInDown 1.2s;
+}
+
+.move-out{
+    animation:zoomOutDown 1.2s;
+}
+
+.active{
+    color:red;
+    border: 1px solid red;
+}
