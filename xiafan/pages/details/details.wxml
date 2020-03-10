@@ -1,0 +1,38 @@
+
+
+<view>
+
+ <text class="title">{{foods.name}}</text>
+
+  <view class="navbar">
+
+      <view data-type="1"  class="{{'navbar-item '+ (type==1?'active':'')}}" bindtap="bindchange">综合</view>
+  
+         <view data-type="2" bindtap="bindchange" class="{{'navbar-item '+ (type===2?'active':'')}}">评分最高</view>
+      <view data-type="3"  class="{{'navbar-item '+ (type==3?'active':'')}}" bindtap="bindchange">做过最多</view>
+      
+  </view>
+
+
+  <view class="foodbox" wx:for = "{{foods.list}}" wx:key="title">
+    <view class="left">
+      <image src="{{item.img}}"></image>
+    
+    </view>
+
+  <view class="right">
+
+
+    <view class="right1" style="">{{item.title}}</view>
+    <view class="right1">{{item.people}}人做过</view>
+    <view class="right1">{{item.score}}分</view>
+        
+  
+  
+  </view>
+  
+  </view>
+
+
+   
+</view>

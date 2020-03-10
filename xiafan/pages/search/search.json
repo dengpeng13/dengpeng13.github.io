@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+      "van-search": "/miniprogram_npm/@vant/weapp/search/index"
+  },
+    "window": {
+      "navigationBarBackgroundColor": "#f5f5f5",
+      "navigationBarTitleText": "菜谱搜索",
+      "navigationBarTextStyle": "black"
+    }
+}

@@ -1,0 +1,52 @@
+
+
+
+
+
+<image src="../../images/loding.gif" class="loding" wx:if="{{userInfo.length===0}}"></image>
+
+<view  wx:else class="bigbox">
+
+    <view class="imagetop" >
+
+        <view class="userinfo">
+          微信用户： {{userInfo.nickName}}
+        </view>
+        <view class="img">
+            <image src="{{userInfo.avatarUrl}}"></image>
+        </view>
+
+    </view>
+
+    <view class="centerbox">
+
+      <view  class="centerbox-font">
+          <view>0</view>
+          <view>关注</view>
+      </view>
+
+      <view class="centerbox-font">
+            <view>0</view>
+            <view>粉丝</view>
+      </view>
+
+      <view class="btn" bindtap="onShareAppMessage">分享</view>
+    </view>
+
+    <van-tabs v-model="active" class="tabar">
+      <van-tab title="收藏 ">
+        <view class="tabar-tu"></view>
+          <view class="tabar-font1">我的收藏</view>
+          <view class="tabar-font2">道菜谱</view>
+      </van-tab>
+      <van-tab title="菜谱 {{type}}" class="tabar-fonts">还没有菜谱哦</van-tab>
+      <van-tab title="作品 {{type}}" class="tabar-fonts">还没有作品哦</van-tab>
+
+    </van-tabs>
+
+</view>
+
+
+
+
+

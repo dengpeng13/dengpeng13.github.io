@@ -1,0 +1,47 @@
+/* pages/clasify/clasify.wxss */
+
+.loding{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.bigbox{
+  width: 100%;
+ 
+  padding: 0 30rpx;
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.title{
+  line-height: 40px;
+  margin-left: 15px
+}
+
+.boxtop{
+    float: left;
+    width: 22%;
+    margin-bottom: 4%;
+    margin-left: 3%;
+    border-radius: 3px;
+    position: relative; 
+}
+
+.img{
+  width: 71px;
+  height: 71px;
+
+
+}
+
+.font{
+ width: 71px;
+  height: 20px;
+  position: absolute;
+  bottom: 5px;
+  font-size: 13px;
+  left: 0;
+   text-align: center
+
+}

@@ -1,0 +1,10 @@
+
+
+<import src="./getMovie.wxml"/>
+
+<template 
+is="movieItem" 
+wx:for="{{getMovie}}"
+wx:key="filmId"
+data="{{item}}">
+</template>

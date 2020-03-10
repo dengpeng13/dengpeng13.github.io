@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "my-banner": "./banner/banner",
+    "moviebox":"./moviebox/moviebox",
+    "van-search": "/miniprogram_npm/@vant/weapp/search/index"
+
+  }
+
+}

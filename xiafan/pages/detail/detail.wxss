@@ -1,0 +1,107 @@
+
+.loding{
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.detail{
+  width: 100%;
+  overflow: hidden;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.img{
+  width: 100%;
+  height: 250px;
+}
+
+.title-top{
+  width: 100%;
+  height: 95px
+}
+
+.title-text{
+  width: 100%;
+  line-height: 30px;
+  font-size: 24px;
+  text-align: center;
+    margin-bottom: 18px;
+}
+
+.title-bottom{
+  width: 100%;
+  height: 35px;
+  margin-bottom: 10px;
+}
+.title1{
+  font-size: 12px;
+  width: 33%;
+  text-align: center;
+  line-height: 12px;
+  float: left;
+  font-weight: 600;
+}
+.title1:nth-child(1){
+   text-align: right;
+}
+.title1:nth-child(3){
+   text-align: left;
+}
+
+.center{
+  width: 100%;
+  
+}
+
+.material{
+  width: 100%;
+  line-height: 26px;
+  margin-bottom: 10px;
+  font-weight: 400;
+   font-size: 20px;
+}
+
+.materialone{
+  line-height: 30px;
+  color: #383831;
+  margin-bottom: 10px;
+}
+
+.bubox{
+  width: 100%;
+
+}
+
+.zuofa{
+      margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.post{
+     margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.imgs{
+  width: 100%;
+  height: 223px;
+}
+.titles{
+     margin: 15px 0 17px;
+    line-height: 1.6;
+}
+
+.titlefood{
+      margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.foodtitle{
+      margin-bottom: 15px;
+     white-space: pre-line;
+     line-height: 30px;
+}
+.posting{
+  height: 0;
+}

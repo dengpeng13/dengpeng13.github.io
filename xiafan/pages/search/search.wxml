@@ -1,0 +1,76 @@
+
+<van-search
+  value="{{ value }}"
+  placeholder="请输入搜索关键词"
+ 
+  bind:change="onChange"
+  bind:cancel="onCancel"
+/>
+
+
+
+  
+    
+
+      <navigator
+      wx:for="{{foods}}"
+       wx:key="foodId" 
+    url="/pages/detail/detail?foodId={{item.foodId}}"
+      >
+      <view class="boxtop" >
+    
+              <view class="box-left">
+                  <image src="{{item.img}}"  class="image"></image>
+                
+              </view>
+
+              <view class="box-right">
+                  <view class="titles">{{item.title}}</view>
+                  <view  class="titles">{{item.score}} 分</view>
+                  <view  class="titles">{{item.people}} 人做过</view>
+              </view>
+
+
+        
+      </view> 
+        
+      </navigator>
+
+      <view >
+      
+
+    
+              <view class="bigbox" >
+
+                      <view class="toptitle">
+                          <view class="left">搜索历史</view>
+                          <view class="right">清空</view>
+                      </view>
+                      <view class="title">蛋糕</view>
+                    
+                  </view>
+
+              <view class="bottombox" >
+                  <view>热门推荐</view>
+                  <navigator
+                  wx:for="{{jiehe}}" wx:key="foodId"
+                  url="/pages/details/details?foodId={{item.foodId}}">
+                  
+                  <view class="titlep" >{{item.name}}</view>
+                  </navigator>
+
+              </view>
+
+
+      </view>
+
+
+   
+ 
+ 
+
+
+
+
+
+

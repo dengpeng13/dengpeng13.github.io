@@ -1,0 +1,30 @@
+/* pages/home/moviebox/moviebox.wxss */
+
+
+.movieItem{
+  width: 100%;
+  height: 248rpx;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+}
+.moviebox{
+  flex: 1;
+  margin-left: 5px
+}
+.movieImg{
+  width: 132rpx;
+  height: 180rpx;
+ 
+}
+
+.moviegrade{
+  font-size: 14px;
+}
+.moviesyn{
+font-size: 14px;
+}
+
+.movienation{
+font-size: 14px;
+}

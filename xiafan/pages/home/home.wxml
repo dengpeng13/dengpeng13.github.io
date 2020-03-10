@@ -1,0 +1,63 @@
+
+
+
+
+<image src="../../images/loding.gif" class="loding" wx:if="{{foods.length===0}}"></image>
+
+<view wx:else>
+
+
+<view class="bigtop">
+   <image class="logo" src="//s.chuimg.com/dist/waffle/img/2e9b403.png"></image>
+   <view class="text">  150万菜谱 3亿厨友的选择</view>
+</view>
+
+
+<view class="search">
+
+<van-search 
+placeholder="今天想吃什么?"
+ value="{{ value }}" 
+ background="#c8c9cc"
+ bind:focus="navigate"/>
+
+</view>
+
+<view wx:for="{{foods}}" wx:key="foodId">
+
+    <navigator   url="/pages/detail/detail?foodId={{item.foodId}}">
+
+
+
+          <view class="boxtop">
+            <view class="box-left">
+                <image src="{{item.img}}"  class="image"></image>
+              
+            </view>
+
+            <view class="box-right">
+                <view class="title">{{item.title}}</view>
+                <view  class="title">{{item.score}} 分</view>
+                <view  class="title">{{item.people}} 人做过</view>
+            </view>
+
+    
+
+
+        
+            
+          </view> 
+    </navigator>
+    <view  class="shou">
+        <view bindtap="handleClickShow" data-type="{{item.foodId}}" >收藏 </view>
+      
+    </view>
+
+</view>
+
+
+
+  <view class="bottom" wx:if = "{{isShow}}">没有跟多了..</view>
+  <image src="../../images/top.png" class="img" wx:if = "{{show}}" bindtap="backtop"> </image>
+
+  </view>

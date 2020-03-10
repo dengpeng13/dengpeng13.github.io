@@ -1,0 +1,14 @@
+<swiper 
+autoplay="{{autoplay}}"
+indicator-dots
+indicator-color="#6p6p6p"
+indicator-active-color="#fff"
+autoplay
+class= "box"
+>
+  <block wx:for="{{banners}}" wx:key="*this">
+    <swiper-item >
+        <image src="{{item.poster}}" class="box-one"></image>
+    </swiper-item>
+  </block>
+</swiper>

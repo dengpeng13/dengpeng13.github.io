@@ -1,0 +1,15 @@
+<template name="movieItem">
+  <view class="movieItem">
+
+      <image src="{{item.poster}}" class="movieImg"></image>
+
+      <view class="moviebox">
+        <view class="moviename">{{item.name}}</view>
+        <view class="moviegrade">观众评分:{{item.grade}}</view>
+        <view class="moviesyn">导演:{{item.director}}</view>
+        <view class="movienation">{{item.nation}}  ||  {{item.runtime}}分钟  </view>
+      </view>
+     
+  
+  </view>
+</template>

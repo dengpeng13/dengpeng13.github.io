@@ -1,0 +1,87 @@
+
+.bigbox{
+  width: 100%;
+  overflow: hidden;
+}
+.imagetop{
+  width: 100%;
+  padding: 0 8px;
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 5px
+}
+.loding{
+  width: 100%;
+  margin: 0 auto;
+
+}
+.userinfo{
+  flex: 1;
+  text-align: center;
+  line-height: 60px;
+  font-size: 22px;
+}
+
+.imagetop .img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  
+}
+.imagetop .img image{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+}
+
+
+.centerbox{
+    width: 100%;
+  padding: 0 8px;
+  box-sizing: border-box;
+    display: flex;
+    font-size: 14px;
+    position: relative;
+    border-bottom: 1px solid red
+}
+
+.centerbox-font{
+  font-size: 12px;
+  width: 30px;
+}
+
+.centerbox .btn{
+  width: 40px;
+  height: 18px;
+  background: green;
+  color: white;
+  text-align: center;
+  line-height: 18px;
+  position: absolute;
+  right: 8px;
+  top: 10px;
+  
+}
+.tabar-tu{
+ 
+  width: 90%;
+  height: 150px;
+  background: gray;
+  margin: 8px auto 8px;
+}
+
+.tabar-font1{
+  margin: 0 0 8px 17px;
+}
+.tabar-font2{
+  font-size: 12px;
+  margin: 0 0 8px 17px;
+}
+
+
+.tabar-fonts{
+  text-align: center;
+  line-height: 80px;
+}
+

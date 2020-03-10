@@ -1,0 +1,10 @@
+<van-tabs  bind:change="onChange">
+   <van-tab title="菜单">
+       <view class="tabar-tu"></view>
+        <view class="tabar-font1">我的收藏</view>
+        
+  </van-tab>
+  <van-tab title="课程" class="tabar-fonts">你还为收藏过</van-tab>
+  <van-tab title="作品" class="tabar-fonts">你还为收藏过</van-tab>
+  <van-tab title="浏览记录" class="tabar-fonts">内容 4</van-tab>
+</van-tabs>

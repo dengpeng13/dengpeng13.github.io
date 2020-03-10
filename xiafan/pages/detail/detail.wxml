@@ -1,0 +1,46 @@
+<image src="../../images/loding.gif" class="loding" wx:if="{{foods.length===0}}"></image>
+
+
+<view wx:else>
+
+
+      <view >
+            <image class="img"  src="{{foods.img}}"></image>
+      </view>
+      <view class="detail">
+
+          <view class="title-top">
+                <view class="title-text">{{foods.title}}</view>
+                  <view class="title-bottom">
+                      <view class="title1">20.6 万人浏览</view>
+                      <view class="title1">{{foods.people}} 人做过</view>
+                      <view class="title1"> 8888 收藏</view>
+                  </view>
+          </view>
+
+          <view class="center">
+              <view class="material">{{foods.material}}</view>
+              <view class="materialone">{{foods.materialone}}</view>
+            
+          </view>
+
+
+        <view class="bubox">
+                  <view class="zuofa">{{foods.zuofa}}</view>
+                  <view wx:for="{{foods.list}}" wx:key="title">
+                        <view class="post">{{item.post}}</view>
+                        <image src="{{item.img}}" class="img"></image>
+                        <view class="titles">{{item.title}}</view>
+                  </view>
+          </view>
+
+
+            <view>
+                <view class="titlefood">{{foods.titlefood}}</view>
+                <view class="foodtitle">{{foods.foodtitle}}</view>
+            </view>
+      </view>
+
+</view>
+ 
+ 

@@ -1,0 +1,14 @@
+{
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f5f5f5",
+    "navigationBarTitleText": "个人中心",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "van-button": "/miniprogram_npm/@vant/weapp/button/index",
+     "van-tabs": "/miniprogram_npm/@vant/weapp/tabs/index",
+     "van-tab": "/miniprogram_npm/@vant/weapp/tab/index"
+ 
+  }
+}

@@ -1,0 +1,25 @@
+
+
+<image src="../../images/loding.gif" class="loding" wx:if="{{foods.length===0}}"></image>
+   <view class="bigbox" wx:else>
+     <view class="title">菜式分类</view> 
+
+   <navigator    
+        wx:for="{{foods}}"
+        wx:key="foodId" 
+        url="/pages/details/details?foodId={{item.foodId}}">
+
+               <view class="boxtop" >
+                
+                          <image class="img" src="{{item.avatarAddress}}"></image>
+                          <text class="font">{{item.name}}</text>
+                      </view>
+   
+   
+   </navigator>
+   
+   
+   
+   </view>
+
+
