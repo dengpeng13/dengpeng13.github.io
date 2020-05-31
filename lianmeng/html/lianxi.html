@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="../bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../layui-v2.5.6/layui/css/layui.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/lianxi.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"
+            ><img src="../images/logo.png" alt="" class="headimg"
+          /></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="./index.html"
+                >首页 <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li><a href="./introduction.html">联盟介绍</a></li>
+            <li><a href="./dongtai.html">联盟动态</a></li>
+            <li><a href="./kechneg1.html">在线课程</a></li>
+            <li><a href="#">供需平台</a></li>
+            <li><a href="./chengguo.html">成果发布</a></li>
+            <li><a href="./zhangting.html">线上展厅</a></li>
+            <li><a href="./lianxi.html">联系我们</a></li>
+          </ul>
+
+          <form class="navbar-form navbar-right">
+            <button type="submit" class="btn btn-default">会员登入</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="banner">
+    
+        <img src="../images/lianxi.jpg" alt="" class="banner-img" />
+      
+    </div>
+
+    <div class="dizhi">
+     
+        <div class=" infobox">
+         
+            <div class="lianxi-font">
+              <div class="yuan"></div>
+              <p class="font1">公司地址</p>
+              <p class="font2">
+                公司地址公司地址公司地址公司地址公司地址公司地址公司地址公司地址公司地址公司地址公司地址
+              </p>
+            </div>
+       
+         
+            <div class="lianxi-font">
+              <p class="font1">联系电话</p>
+              <p class="font2">
+                16886454465(菜陌陌)
+              </p>
+              <p class="font2">
+                16886454465(菜陌陌)
+              </p>
+            </div>
+         
+         
+            <div class="lianxi-font fontbox-zui">
+              <p class="font1">邮箱</p>
+              <p class="font2">
+               6645555@qq.com
+              </p>
+            </div>
+          </div>
+        
+     
+    </div>
+
+    <div class="map">
+     
+        <img src="../images/map.jpg" alt="" class="map-img" />
+     
+    </div>
+
+    <div id="footer"></div>
+  </body>
+  <script src="../jq/jq.js"></script>
+  <script src="../bootstrap/bootstrap-3.3.7-dist//js/bootstrap.min.js"></script>
+  <script src="../layui-v2.5.6/layui/layui.js"></script>
+  <script>
+     $(document).ready(function() {
+      $(".head").load("head.html");
+      $("#footer").load("footer.html")
+    
+    });
+  </script>
+</html>

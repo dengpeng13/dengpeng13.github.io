@@ -1,0 +1,598 @@
+.navbar-collapse{
+    padding: 0 !important;
+}
+
+
+
+.navbar{
+    height: 64px;
+    margin-bottom: 0%;
+}
+.navbar-header{
+    width: 170px;
+    height: 64px;
+    
+}
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.container{
+    position: relative;
+}
+.navbar-toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+   
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #ffffff;
+}
+.nav>li{
+    height:36px;
+    line-height: 36px;
+    margin-right: 34px;
+ 
+}
+.nav>li:nth-child(1){
+    margin-left: 120px;
+    border-bottom: 2px solid #4279e0;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 22px 0 ;
+}
+.btn-default {
+    width: 82px;
+    height: 33px;
+    border-radius: 13px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #0092ee;
+    border-color: #ccc;
+    margin-top: 4px;
+}
+.headimg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 170px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 23px;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 20px;
+}
+.collapse navbar-collapse{
+    padding: 0;
+}
+@media (max-width:992px){
+    .nav>li:nth-child(1){
+        margin-left: 0;
+
+    }
+} 
+
+
+
+@media (min-width: 1200px){
+    .container {
+    
+      width: 1300px;
+   
+    padding: 0 !important;
+    }
+    .po1{
+        padding:0  !important;
+    }
+    .banner-img{
+        width: 1300px;
+         height: 300px;
+         margin: 0 auto;
+     }
+     .banner{
+         width: 1300px;
+         height: 300px;
+         margin: 0 auto;
+     }  
+     .navs{
+        width: 1300px;
+        margin: 0 auto;
+        background: #f5f7fa;
+        height: 70px;
+      
+    }
+    .nav-font{
+        line-height: 70px;
+        text-align: center;
+    }
+    
+    .navs-tfont{
+        padding: 0 40px;
+    }
+
+
+    
+
+/* 联盟介绍 */
+.lianmen-jieshou{
+    width: 100%;
+    height: 648px;
+    margin: 0 auto;
+}
+.lianmen-jieshou-center{
+    width: 1300px;
+     padding-top: 150px;
+     box-sizing: border-box;
+    margin: 0 auto;
+  
+}
+.lianmen-jieshou-center .top{
+    color: #666666;
+    font-size: 54px;
+    font-weight: bold;
+}
+.p1{
+    margin-bottom: 20px;
+}
+
+.jieshou-font{
+    width: 740px;
+    height: 314px;
+    margin: 0 auto;
+    margin-top: 122px;
+    text-align: center;
+}
+.jieshou-font .p1{
+    font-size: 16px;
+    color: #333333;
+}
+
+/* 愿景与使命 */
+.yuanjin{
+    width: 100%;
+    padding-top: 97px;
+    margin: 0 auto 80px;
+    background: url("../images/yuanjin.jpg") no-repeat;
+    background-position:center ;
+}
+.yuanjin-center{
+    width: 1300px;
+    height: 780px;
+    margin: 0 auto;
+}
+.yuanjin-title{
+    color: #333333;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: bold;
+}
+.yuanjin-text{
+ 
+    width: 624px;
+    overflow: hidden;
+    line-height: 30px;
+    margin-top: 48px;
+    margin-left: 42px;
+}
+    
+.licheng{
+    width: 100%;
+    height: 380px;
+    background: url("../images/licheng-one.jpg") no-repeat;
+    background-position:center ;
+   
+}
+.licheng-center{
+    width: 1300px;
+    height: 380px;
+    margin: 0 auto;
+    padding-top: 104px;
+    box-sizing: border-box;
+}
+.lichneg-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    font-style: italic;
+    
+  
+    text-align: center;
+  
+    /* margin-top: 90px; */
+}
+.licheng-center div{
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* shijian */
+
+.times{
+    width: 100%;
+    overflow: hidden;
+    background: #f5f7fa; 
+    margin-bottom: 48px;
+    /* padding-top: 50px; */
+  }
+  .times-center{
+      width: 1300px;
+      height: 320px;
+      margin: 0 auto;
+  }
+   .time-title{
+    
+      border-bottom: 1px solid #e5e5e5;
+     
+      box-sizing: border-box;
+      margin-bottom: 20px;
+  }
+  .times-center{
+    
+      height: 322px;
+      margin: 0 auto;
+    }
+    .times-center h3{
+      
+        height: 74px;
+        margin-top: 48px;
+        line-height: 74px;
+        /* border-bottom: 1px solid #666666; */
+    }
+  
+    .times-ul{
+      
+        height: 216px;
+       
+    }
+    .timefonts{
+        width: 615px;
+    }
+   
+    .times-ul li{
+       line-height: 64px;
+     
+        float: left;
+    }
+    .times-ul .span3{
+       margin-left: 129px;
+       
+    }
+    .times-ul .span2{
+      /* margin-left: 222px; */
+  }
+
+
+  
+ /* 架构 */
+
+.bottomk{
+    width: 100%;
+    height: 530px;
+    margin: 0 auto;
+   
+}
+.bottomk-center{
+    width: 1300px;
+    height: 530px;
+    margin: 0 auto 0;
+    background-color: #fafafa;
+    padding: 0 35px;
+    box-sizing: border-box;
+}
+.bottomk-box{
+    width: 256px;
+    height: 188px;
+    float: left;
+    margin-right: 65px;
+    margin-bottom: 52px;
+ 
+    
+}
+.bottomk-box:nth-child(4n){
+ 
+    margin-right: 0;
+    
+}
+ .bottomk-box-top{
+     background-color: #dbdde5;
+     padding: 34px 0 38px 20px;
+     /* margin-bottom: 14px; */
+ }
+
+ .bottomk-title{
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 14px;
+ }
+
+ .bottomk-p{
+    color: #999999;
+    font-size: 16px;
+  
+  
+ }
+ .bottomk-box-bottom{
+     background-color: white;
+     padding: 15px 28px 14px 20px;
+     box-sizing: border-box;
+ }
+ .bottomk-p1{
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 10px;
+ }
+
+
+}
+
+
+@media (max-width: 768px){
+    .container {
+    padding: 0 !important;
+    /* width: 1300px; */
+    /* margin: 0; */
+    }
+    .po1{
+        padding:0  !important;
+    }
+    .banner-img{
+         width: 100%;
+         height: 300px;
+         margin: 0 auto;
+     }
+     .banner{
+       
+         height: 300px;
+         margin: 0 auto;
+     }  
+     .navs{
+    
+        margin: 0 auto;
+        background: #f5f7fa;
+       
+      
+    }
+    .nav-font{
+        line-height: 70px;
+        text-align: center;
+    }
+    
+    .navs-tfont{
+        padding: 0 40px;
+    }
+
+
+    
+
+/* 联盟介绍 */
+.lianmen-jieshou{
+    width: 100%;
+    height: 648px;
+    margin: 0 auto;
+}
+.lianmen-jieshou-center{
+    width: 100%;
+     padding-top: 100px;
+     box-sizing: border-box;
+    margin: 0 auto;
+  
+}
+.lianmen-jieshou-center .top{
+    color: #666666;
+    font-size: 44px;
+    font-weight: bold;
+}
+.p1{
+    margin-bottom: 20px;
+}
+
+.jieshou-font{
+    /* width: 740px; */
+    height: 314px;
+    margin: 0 auto;
+    margin-top: 122px;
+    text-align: center;
+}
+.jieshou-font .p1{
+    font-size: 16px;
+    color: #333333;
+}
+
+/* 愿景与使命 */
+.yuanjin{
+    width: 100%;
+    padding-top: 97px;
+    margin: 0 auto 80px;
+    background: url("../images/yuanjin.jpg") no-repeat;
+    background-position:center ;
+}
+.yuanjin-center{
+    /* width: 1300px; */
+    height: 565px;
+    margin: 0 auto;
+}
+.yuanjin-title{
+    color: #333333;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: bold;
+}
+.yuanjin-text{
+ 
+    /* width: 624px; */
+    overflow: hidden;
+    line-height: 30px;
+    margin-top: 48px;
+    padding: 0 10px ;
+    box-sizing: border-box;
+}
+    
+.licheng{
+    width: 100%;
+    height: 200px;
+    background: url("../images/licheng-one.jpg") no-repeat;
+    background-position:center ;
+   
+}
+.licheng-center{
+  
+    margin: 0 auto;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.lichneg-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    font-style: italic;
+    
+  
+    text-align: center;
+  
+    /* margin-top: 90px; */
+}
+.licheng-center div{
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* shijian */
+
+.times{
+    width: 100%;
+    overflow: hidden;
+    background: #f5f7fa; 
+    margin-bottom: 48px;
+    /* padding-top: 50px; */
+  }
+  .times-center{
+      /* width: 1300px; */
+      height: 320px;
+      margin: 0 auto;
+  }
+   .time-title{
+    
+      border-bottom: 1px solid #e5e5e5;
+     
+      box-sizing: border-box;
+      margin-bottom: 20px;
+  }
+  .times-center{
+    
+      height: 322px;
+      margin: 0 auto;
+    }
+    .times-center h3{
+      
+        height: 74px;
+        margin-top: 48px;
+        line-height: 74px;
+        /* border-bottom: 1px solid #666666; */
+    }
+  
+    .times-ul{
+      
+        height: 216px;
+       
+    }
+    .timefonts{
+        /* width: 615px; */
+    }
+   
+    .times-ul li{
+       line-height: 64px;
+     
+        float: left;
+    }
+    .times-ul .span3{
+       /* margin-left: 129px; */
+       
+    }
+    .times-ul .span2{
+      /* margin-left: 222px; */
+  }
+
+
+  
+ /* 架构 */
+
+.bottomk{
+    width: 100%;
+    /* height: 530px; */
+    margin: 0 auto;
+   
+}
+.bottomk-center{
+    /* width: 1300px; */
+    /* height: 530px; */
+    overflow: hidden;
+    background-color: #fafafa;
+    /* padding: 0 35px;
+    box-sizing: border-box; */
+}
+.bottomk-box{
+    width: 200px;
+    height: 140px;
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 74px;
+ 
+    
+}
+.bottomk-box:nth-child(2n){
+ 
+    margin-right: 0;
+    
+}
+ .bottomk-box-top{
+     background-color: #dbdde5;
+     padding: 24px 0 26px 16px;
+     /* margin-bottom: 14px; */
+ }
+
+ .bottomk-title{
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 14px;
+ }
+
+ .bottomk-p{
+    color: #999999;
+    font-size: 16px;
+  
+  
+ }
+ .bottomk-box-bottom{
+     background-color: white;
+     padding: 15px 28px 14px 20px;
+     box-sizing: border-box;
+ }
+ .bottomk-p1{
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 10px;
+ }
+}
+
+
+
+
+
+
+
+
+
+

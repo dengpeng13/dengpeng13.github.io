@@ -1,0 +1,315 @@
+
+.navbar-collapse{
+    padding: 0 !important;
+}
+
+
+
+.navbar{
+    height: 64px;
+    margin-bottom: 0%;
+}
+.navbar-header{
+    width: 170px;
+    height: 64px;
+    
+}
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.container{
+    position: relative;
+}
+.navbar-toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+   
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #ffffff;
+}
+.nav>li{
+    height:36px;
+    line-height: 36px;
+    margin-right: 34px;
+ 
+}
+.nav>li:nth-child(1){
+    margin-left: 120px;
+    border-bottom: 2px solid #4279e0;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 22px 0 ;
+}
+.btn-default {
+    width: 82px;
+    height: 33px;
+    border-radius: 13px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #0092ee;
+    border-color: #ccc;
+    margin-top: 4px;
+}
+.headimg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 170px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 23px;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 20px;
+}
+.collapse navbar-collapse{
+    padding: 0;
+}
+
+.banners{
+    width: 1300px;
+    margin: 0 auto;
+}
+.banner-img{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+    .container {
+    
+    width: 1300px;
+   
+    padding: 0 !important;
+    }
+    .po1{
+        padding:0  !important;
+    }
+    .banner{
+        width: 100%;
+        height: 300px;
+    
+    }
+ /* banner-nav */
+.nav-font{
+    line-height: 68px;
+    text-align: center;
+}
+.navs{
+    width: 100%;
+   
+    background: #f5f7fa;
+    margin-bottom: 80px;
+ 
+}
+.navs-tfont{
+ 
+    background: #f5f7fa;
+   
+}
+    
+
+
+.zhipo-font1{
+    line-height: 110px;
+    font-size: 22px;
+    float: left;
+}
+.zhipo-font2{
+    line-height: 110px;
+    text-align: right;
+    color: #a0a0a0;
+}
+
+
+.zhibo-box{
+    width: 300px;
+    float: left;
+    margin-right: 33px;
+    margin-bottom: 60px;
+}
+.zuis{
+    margin-right: 0;
+}
+.zhibo-p{
+    color: #333333;
+    font-size: 16px;
+    /* margin-bottom: 8px; */
+    box-sizing: border-box;
+    padding: 30px 19px 10px 10px;
+}
+.zhibo-span .span1{
+   
+    width: 70px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    background: #4279e0;
+    color: white;
+    font-size: 14px;float: left;
+    margin-left: 10px;
+    border-radius: 0 10px 0 10px;
+
+}
+.zhibo-span .span2{
+    float: right;
+    text-align: right;
+   
+    line-height: 26px;
+    color: #999999;
+    font-size: 12px;
+    padding-right: 28px;
+
+}
+.daka-m{
+    width:300px;
+    height: 180px;
+    border-radius: 8px;
+  
+}
+.daka{
+    background: url("../images/daka.jpg") no-repeat;
+}
+.menxin{
+    background-color: #f7f8fa;
+}
+.fugong{
+    background: url("../images/fugong.jpg") no-repeat;
+}
+.fugongfont{
+    color: white;
+}
+
+
+
+
+@media (max-width: 768px){
+    .container {
+    padding: 0 !important;
+    /* width: 1300px; */
+    /* margin: 0; */
+    }
+    .po1{
+        padding:0  !important;
+    }
+    .banner-img{
+        width: 375px;
+        height: 300px;
+    }
+
+    .nav-font{
+        text-align: center;
+        line-height: 30px;
+    }
+    .navs-tfont{
+ 
+        background: #f5f7fa;
+       
+    }
+      
+    .zhipo-font1{
+        line-height: 110px;
+        font-size: 22px;
+        float: left;
+        text-align: right;
+    }
+    .zhipo-font2{
+        line-height: 110px;
+        text-align: right;
+        color: #a0a0a0;
+    }
+
+    /* zhibo */
+    
+.zhipo-font1{
+    line-height: 110px;
+    font-size: 22px;
+    float: left;
+}
+.zhipo-font2{
+    line-height: 110px;
+    text-align: right;
+    color: #a0a0a0;
+}
+
+
+.zhibo-box{
+    width: 187px;
+    float: left;
+  
+    margin-bottom: 60px;
+}
+.zuis{
+    margin-right: 0;
+}
+.zhibo-p{
+    color: #333333;
+    font-size: 16px;
+    /* margin-bottom: 8px; */
+    box-sizing: border-box;
+    padding: 30px 19px 10px 10px;
+}
+.zhibo-span .span1{
+   
+    width: 70px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    background: #4279e0;
+    color: white;
+    font-size: 14px;float: left;
+    margin-left: 10px;
+    border-radius: 0 10px 0 10px;
+
+}
+.zhibo-span .span2{
+    float: right;
+    text-align: right;
+   
+    line-height: 26px;
+    color: #999999;
+    font-size: 12px;
+    padding-right: 28px;
+
+}
+.daka-m{
+    width:187px;
+    height: 180px;
+    border-radius: 8px;
+  
+}
+
+}
+
