@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <link
+    rel="stylesheet"
+    href="../bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="../layui-v2.5.6/layui/css/layui.css" />
+  <link rel="stylesheet" href="../css/main.css" />
+    <title>Document</title>
+    
+</head>
+<style>
+ ul,li,div,span{
+            margin: 0;
+            padding: 0;
+        }
+      
+        .ss{
+          width: 40px;
+          height: 150px;
+          background-color: red;
+        }
+        ul{
+          width: 870px;
+          height: 450px;
+        }
+        li{
+          width: 40px;
+          height: 150px;
+          background-color: red;
+          border: 2px solid white;
+          float: right;
+        }
+</style>
+<body>
+
+  <div class="head">
+
+  </div>
+    <!-- <ul class="wrap">
+        <li class="checked">
+            <span>选项1</span>
+            <div>1</div>
+        </li>
+         <li>
+             <span>选项2</span>
+             <div>2</div>
+         </li>
+         <li>
+             <span>选项3</span>
+             <div>3</div>
+         </li>
+      
+     </ul> -->
+
+
+     <div class="ss">
+       <ul>
+         <li>
+            <div>1</div>
+            <div>1</div>
+         </li>
+         <li>
+            <div>2</div>
+            <div>2</div>
+         </li>
+         <li>
+            <div>3</div>
+            <div>01</div>
+         </li>
+       </ul>
+
+     </div>
+     
+</body>
+<script src="../jq/jq.js"></script>
+<script src="../bootstrap/bootstrap-3.3.7-dist//js/bootstrap.min.js"></script>
+<script src="../layui-v2.5.6/layui/layui.js"></script>
+<script>
+
+  $(function(){
+   
+  })
+
+
+        $(function(){
+          $(".ss ul li").mousemove(function(){
+            $(this).animate({width: '+500px'}, "slow");
+            
+          })
+        })
+  
+   
+</script>
+</html>

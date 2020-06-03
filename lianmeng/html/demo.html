@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <link
+    rel="stylesheet"
+    href="../bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="../layui-v2.5.6/layui/css/layui.css" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../swiper/swiper.css">
+
+  <link rel="stylesheet" href="../css/index.css" />
+</head>
+<style type="text/css">
+    *{margin:0px;padding:0px;}
+    .tabbox{margin:10px;}
+    .tabbox ul{list-style:none;display:table;}
+    .tabbox ul li{float:left;width:200px;line-height:30px;padding-left:8px;border:1px solid #aaccff;margin-right:-1px;cursor:pointer;}
+    .tabbox ul li.active{background-color:#e73839;color:white;font-weight:bold;}
+    .tabbox .content{border:1px solid #aaccff;padding:10px;}
+    .tabbox .content>div{display:none;}
+    .tabbox .content>div.active{display:block;}
+    </style>
+<body>
+
+      
+    
+                
+                <div class="tabbox">
+                　　<ul class="zixu-ul">
+                　　　　<li>联盟咨询</li>
+                　　　　<li class="active">政策速递</li>
+                　　　
+                　　</ul>
+                <div class="content">
+                　　<div>
+                　　　　<div>111111111111</div>
+                　　</div>
+                <div class="active">
+                　　<div>2222222222</div>
+                </div>
+                　
+                　　</div>
+                </div>
+              
+</body>
+  <!-- <script src="../js/footer.js"></script> -->
+  <script src="../jq/jq.js"></script>
+  <script src="../bootstrap/bootstrap-3.3.7-dist//js/bootstrap.min.js"></script>
+  <script src="../layui-v2.5.6/layui/layui.js"></script>
+  <script type="text/javascript" src="Scripts/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+$(function ()
+{
+　　$(".tabbox li").click(function ()
+　　{
+　　　　//获取点击的元素给其添加样式，讲其兄弟元素的样式移除
+　　　　$(this).addClass("active").siblings().removeClass("active");
+　　　　//获取选中元素的下标
+　　　　var index = $(this).index();
+　　　　$(this).parent().siblings().children().eq(index).addClass("active")
+　　　　.siblings().removeClass("active");
+　　});
+});
+
+</script>
+</html>

@@ -1,0 +1,154 @@
+.loginceter{
+    width:490px;
+    height: 546px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    /* margin: 0 auto; */
+}
+.content{
+    /* width: 400px; */
+    margin: 0 auto;
+}
+.tabbox{
+    height: 400px;
+    /* padding-left: 50px;   */
+}
+.layui-form-item{
+    width:570px;
+    height: 370px;
+}
+.layui-form-label {
+    float: left;
+    display: block;
+  
+    width: 100px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: right;
+}
+.layui-input{
+    width: 240px;
+    height: 42px;
+}
+
+.fixbox{
+   width: 362px;
+   height: 300px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.login-right{
+    width: 490px;
+    height: 546px;
+    /* float: left; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #999999;
+    position: relative;
+}
+
+.saoma{
+    position: absolute;
+    right: 100px;
+    top: 19px;
+    width: 190px;
+    height: 44px;
+    background-color: #d6e9ff;
+    color: #3a62d7;
+    text-align: center;
+    line-height:44px ;
+}
+.inp1{
+    width: 360px;
+    height: 42px;
+    float: left;
+    margin: 0 auto;
+    /* margin-left: 111px; */
+}
+
+.inp2{
+    width: 360px;
+    height: 42px;
+    float: left;
+    margin-top: 30px;
+    position: relative;
+    /* margin-left: 111px; */
+}
+.sore{
+    width: 142px;
+    height: 42px;
+    position: absolute;
+    right: 0;
+    top: 72px;
+    background-color: #3a62d7;
+    /* border-radius: 4px; */
+    text-align: center;
+    color: white;
+    line-height: 44px;
+}
+.btn{
+    width: 360px;
+    height: 42px;
+    background: #3a62d7;
+    color: white !important;
+    float: left;
+    margin-top: 30px;
+    /* margin-left: 111px; */
+}
+label {
+    /* display: inline-block; */
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 0 !important;
+}
+.login-po{
+    width: 360px;
+    height: 42px;
+    float: left;
+    line-height: 42px;
+    /* margin-left: 111px;   */
+    display: flex;
+    align-items: center;
+ 
+}
+.inp3{
+    margin-top: 30px;
+    float: left;
+}
+.dpwd{
+    float: left;
+}
+.spwd{
+    display: block;
+    float: right;
+    /* text-align: right; */
+   line-height: 38px;
+   margin-left:152px;
+}
+.spwd:hover{
+    text-decoration: none;
+    color:  #3a62d7 !important;
+}
+
+.qita{
+    float: left;
+}
+.qita p {
+    margin-top: 20px;
+}
+.dengru{
+    overflow: hidden;
+    margin-left: 80px;
+}
+
+.qita .dengru li{
+    float: left;
+    width: 40px;
+    font-size: 13px;
+}

@@ -17,44 +17,54 @@
    
 </head>
 <body>
-        <nav class="navbar navbar-default">
-                <div class="container">
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#"><img src="../images/logo.png" alt="" class="headimg"></a>
-                  </div>
+    <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"
+              ><img src="../images/logo.png" alt="" class="headimg"
+            /></a>
+          </div>
+  
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active">
+                <a href="./index.html"
+                  >首页 <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li><a href="./introduction.html">联盟介绍</a></li>
+              <li><a href="./dongtai.html">联盟动态</a></li>
+              <li><a href="./kechneg1.html">在线课程</a></li>
+              <li><a href="#">供需平台</a></li>
+              <li><a href="./chengguo.html">成果发布</a></li>
+              <li><a href="./zhangting.html">线上展厅</a></li>
+              <li class="zuixss"><a href="./lianxi.html">联系我们</a></li>
+            </ul>
+  
+            <form class="navbar-form navbar-right">
+              <img src="../images/search.png" alt="" class="searchs" />
+       
+              <button type="submit" class="btn btn-default"><a href="../html/login.html">会员登入</a> </button>
               
-               
-                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                      <li class="active"><a href="./index.html">首页 <span class="sr-only">(current)</span></a></li>
-                      <li><a href="./introduction.html">联盟介绍</a></li>
-                      <li><a href="./dongtai.html">联盟动态</a></li>
-                      <li><a href="./kechneg1.html">在线课程</a></li>
-                      <li><a href="#">供需平台</a></li>
-                      <li><a href="./chengguo.html">成果发布</a></li>
-                      <li><a href="./zhangting.html">线上展厅</a></li>
-                      <li><a href="./lianxi.html">联系我们</a></li>
-                     
-                    </ul>
-                  
-                    
-                    <form class="navbar-form navbar-right">
-                       
-                        <button type="submit" class="btn btn-default">会员登入</button>
-                      </form>
-                   
-                    
-                  </div>
-                </div>
-            </nav>
+            </form>
+          </div>
+          <input type="text" class="search-top">
+        </div>
+      </nav>
              <!-- banner -->
-
+         
 
              <div class="banner">
                     <div class="container">
@@ -66,37 +76,37 @@
             
       
             <!-- banner  nav-->
-            <div class="navs">
-                    <div class="row navs-tfont" >
-                            <div class="col-md-3 col-lg-3 col-sm-4 col-xs-6 po1">
-                              <div class="nav-font">
-                                
-                                联盟介绍
-                    
-                              </div>
-                            </div>
-                            <div class="col-md-3 col-lg-3 col-sm-4 col-xs-6 po1">
-                              <div class="nav-font">愿景与使命</div>
-                              
-                            </div>
-                    
-                            <div class="col-md-3 col-lg-3 col-sm-4 col-xs-6 po1">
-                                <div class="nav-font">发现历程</div>
-                              
-                            </div>
-                            <div class="col-md-3 col-lg-3 col-sm-4 col-xs-6 po1">
-                                    <div class="nav-font">组织架构</div>
-                                  
-                                </div>
-                    
+            <div class="baner-daogang">
+                    <div class="container">
+                      <div class="daogangs">
+              
+                        <div class="daogang-font">
+                          <a href="#jieshao" >联盟介绍</a>
+                          <!-- <div class="xian"></div> -->
                         </div>
-            </div>
+                    
+                    
+                        <div class="daogang-font active"><a href="#shim">愿景与使命</a> </div>
+                  
+                
+                 
+                        <div class="daogang-font"><a href="#lichneg">发展历程</a> </div>
+                   
+                  
+                        <div class="daogang-font"><a href="#jiagou">组织架构</a> </div>
+                      </div>
+                    
+                        
+                      </div>
+                    </div>
           <!-- 联盟介绍 -->
 
-          <div class="lianmen-jieshao">
+          <div class="lianmen-jieshao" id="jieshao">
               <div class="container">
                     <div class="lianmen-jieshou-center">
                             <p class="top">联盟介绍</p>
+                            <!-- <p class="bigpo">ABOUT  US</p> -->
+                            <div class="jieshou-xian"></div>
                             <div class="jieshou-font">
                                     <p class="p1">为加快我国工业互联网发展，推进工业互联网产学研用协同发展，在工业和信息化部的指导下，2016年2月1日由工业、
                                             信息通信业、互联网等领域百余家单位共同发起成立工业互联网产业联盟。</p>
@@ -120,35 +130,96 @@
      
    <!-- 愿景与使命 -->
 
-   <div class="yuanjin">
+   <div class="yuanjin" id="shim">
        <div class="container">
            <div class="yuanjin-center">
-                <p class="yuanjin-title">愿景与使命</p>
-               
-                        <div class="yuanjin-text">
-                                <p>这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命
-                                        这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命
-                                                这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命
-                                    这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命
-                                        这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命
-                                                这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命
-                                    这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命
-                                        这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命
-                                                这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命</p>
-                            </div>
+                    <div class="yuanjin-left">
+                        <p class="yuanjin-title">愿景与使命</p>
+
                     </div>
-           </div>
+                
+                    <div class="yuanjin-right">
+                        <p>这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命
+                                这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命
+                                这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命这里是愿景使命
+                       </p>
+                                
+                    </div>
+            </div>
+     </div>
 
        </div>
    </div> 
      
   <!-- 发展历程 -->
-    <div class="licheng">
+    <div class="licheng" id="lichneg">
         <div class="container">
             <div class="licheng-center">
-                
-                    <p class="lichneg-title">发展历程</p>
-                   
+                <p  class="lichneg-title">
+
+                    <i>发展历程</i>
+                </p>
+                <div class="fontpos">
+                    <ul>
+                        <li>2020</li>
+                        <li>2019</li>
+                        <li>2018</li>
+                        <li>2017</li>
+                        <li>2016</li>
+                    </ul>
+                </div>
+                <div class="fontpos2">
+                       
+              </div>
+                <div class="tabbox">
+                        <div class="boxs1">
+                          <ul class="zixu-ul">
+                           　　　　<li class="active">
+                              
+
+                                 </li>
+                           　　　　<li ></li>
+                           　　　　<li class=""></li>
+                           　　　　<li class="zioyuan1"></li>
+                           　      <li class="zioyuan"></li>
+                         </ul>
+                        
+        
+                        </div>
+                            <div class="content">
+                                　　<div>
+                                　　　　<div> 
+                                   
+                                    
+                                    
+                                    </div>
+                                　　</div>
+                                    <div class="active">
+                                    　　<div> 
+                                        
+                                    
+                                        
+                                        </div>
+                                    </div>
+
+
+                                　　<div> 
+                                
+                                    
+                                    </div>
+
+                                    <div> 
+                                     </div>
+                            　　　　<div> 
+                                
+                                
+                                
+                                    </div>
+                            </div>
+        
+                      </div>
+        
+
             </div>
 
         </div>
@@ -161,41 +232,39 @@
            <div class="times-center">
                 <h3 class="time-title">2020年</h3>
                 <ul class="times-ul times-left">
-                        <div class="col-md-6 col-lg-6 timefonts po1">
-                            <li>
-                                <span>1月  </span>
-                                <span class="span2">  这是1月份发生的一件大事记这是1月份发生的一件大事记</span>
+                    <ul>
+                        <li >
+                                <span class="time-span">01</span>
+                                <span class="month">1月  </span>
+                                <span class="span2">这是1月份发生的一件大事记这是1月份发生的一件大事记</span>
                                 <span class="span3">></span>
-                            </li>
-                        </div>
-                        <div class="col-md-6 col-lg-6 po1">
-                            <li>
-                                <span>1月  </span>
-                                <span class="span2">  这是1月份发生的一件大事记这是1月份发生的一件大事记</span>
+                        </li>
+                        <li>
+                                <span class="time-span">02</span>
+                                <span class="month">2月  </span>
+                                <span class="span2">这是2月份发生的一件大事记这是1月份发生的一件大事记</span>
                                 <span class="span3">></span>
-                            </li>
-                        </div>
-                        <div class="col-md-6 col-lg-6 po1">
-                            <li>
-                                <span>1月  </span>
-                                <span class="span2">  这是1月份发生的一件大事记这是1月份发生的一件大事记</span>
+                        </li>
+                        <li>
+                                <span class="time-span">03</span>
+                                <span class="month">3月  </span>
+                                <span class="span2">这是3月份发生的一件大事记这是1月份发生的一件大事记</span>
                                 <span class="span3">></span>
-                            </li>
-                        </div>
-                        <div class="col-md-6 col-lg-6 po1">
-                            <li>
-                                <span>1月  </span>
-                                <span class="span2">  这是1月份发生的一件大事记这是1月份发生的一件大事记</span>
+                        </li>
+                        <li>
+                                <span class="time-span">04</span>
+                                <span class="month">4月  </span>
+                                <span class="span2">这是4月份发生的一件大事记这是1月份发生的一件大事记</span>
                                 <span class="span3">></span>
-                            </li>
-                        </div>
-                        <div class="col-md-6 col-lg-6 po1">
-                            <li>
-                                <span>1月  </span>
-                                <span class="span2">  这是1月份发生的一件大事记这是1月份发生的一件大事记</span>
+                        </li>
+                        <li>
+                                <span class="time-span">05</span>
+                                <span class="month">5月  </span>
+                                <span class="span2">这是5月份发生的一件大事记这是1月份发生的一件大事记</span>
                                 <span class="span3">></span>
-                            </li>
-                        </div>
+                        </li>
+                    </ul>
+                     
                     
                     </ul>
            </div>
@@ -205,11 +274,47 @@
    </div>
    
 
+   <div class="jiagou" id="jiagou">
+       <div class="container">
+           <h1>组织架构</h1>
+           <div class="jiagou-box">指导会委员</div>
+           <div class="xianbig"></div>
+           <!-- <div class="xian-bottom"></div> -->
+           <div class="xian-left"></div>
+           <div class="xian-right"></div>
+           <div class="jiagou-bigbox">
+               <ul>
+                   <li><p>总体组</p> </li>
+                   <li>需求组</li>
+                   <li>技术与标准组</li>
+                   <li>网络组</li>
+                   <li>工业互联网平台组</li>
+                   <li>安全组</li>
+                   <li>测试床组</li>
+                   <li>产于发展组</li>
+                   <li>频谱组</li>
+                   <li>国际合作与对外交流组</li>
+                   <li>垂直行业组</li>
+                   <li>政策法规与投融资组</li>
+                   <li>人才组</li>
+               </ul>
+           </div>
+
+           <div class="jiagou-bu">
+               <p class="pox1"><span class="box-oo"></span><span class="span2">总体组工作范畴</span> </p>
+               <p class="pox2">这里是总体组的工作范畴这里是总体组的工作范畴这里是总体组的工作范畴这里是总体组的工作范畴这里是总体组的工作范畴这里是总体组的工作范畴这里是总体组的工作范畴这里是总体组的工作范畴
+                    这里是总体组的工作范畴这里是总体组的工作范畴这里是总体组的工作范畴这里是总体组的工作范畴这里是总体组的工作范畴这里是总体组的工作范畴</p>
+           </div>
+          
+       </div>
+   </div>
+
    <div class="bottomk">
        <div class="container">
            <div class="bottomk-center">
                <div class="bottomk-box">
                    <div class="bottomk-box-top">
+                        <img src="../images/renwu.png" alt="" class="renwu">
                            <h3 class="bottomk-title">李明</h3>
                            <p class="bottomk-p">主席</p>
        
@@ -226,7 +331,7 @@
                     <div class="bottomk-box-top">
                             <h3 class="bottomk-title">李明</h3>
                             <p class="bottomk-p">主席</p>
-        
+                            <img src="../images/renwu.png" alt="" class="renwu">
                         </div>
                         <div class="bottomk-box-bottom">
                             <p class="jiagou-p1">
@@ -238,6 +343,7 @@
                 </div>
                 <div class="bottomk-box">
                         <div class="bottomk-box-top">
+                                <img src="../images/renwu.png" alt="" class="renwu">
                                 <h3 class="bottomk-title">李明</h3>
                                 <p class="bottomk-p">主席</p>
             
@@ -252,6 +358,7 @@
                     </div>
                     <div class="bottomk-box">
                             <div class="bottomk-box-top">
+                                    <img src="../images/renwu.png" alt="" class="renwu">
                                     <h3 class="bottomk-title">李明</h3>
                                     <p class="bottomk-p">主席</p>
                 
@@ -266,6 +373,7 @@
                         </div>
                         <div class="bottomk-box">
                                 <div class="bottomk-box-top">
+                                        <img src="../images/renwu.png" alt="" class="renwu">
                                         <h3 class="bottomk-title">李明</h3>
                                         <p class="bottomk-p">主席</p>
                     
@@ -280,6 +388,7 @@
                             </div>
                             <div class="bottomk-box">
                                     <div class="bottomk-box-top">
+                                            <img src="../images/renwu.png" alt="" class="renwu">
                                             <h3 class="bottomk-title">李明</h3>
                                             <p class="bottomk-p">主席</p>
                         
@@ -294,6 +403,7 @@
                                 </div>
                                 <div class="bottomk-box">
                                         <div class="bottomk-box-top">
+                                                <img src="../images/renwu.png" alt="" class="renwu">
                                                 <h3 class="bottomk-title">李明</h3>
                                                 <p class="bottomk-p">主席</p>
                             
@@ -308,6 +418,7 @@
                                     </div>
                                     <div class="bottomk-box">
                                             <div class="bottomk-box-top">
+                                                    <img src="../images/renwu.png" alt="" class="renwu">
                                                     <h3 class="bottomk-title">李明</h3>
                                                     <p class="bottomk-p">主席</p>
                                 
@@ -461,7 +572,87 @@
 
     
     
-    <div id="footer"></div>
+  <div class="right-ce">
+        <ul class="right-ul">
+            <li class="active11">
+                <!-- <img src="../images/man.png" alt=""> -->
+                <p>加入联盟</p>
+            </li>
+            <li>
+               
+                  <p>意见反馈</p>
+            </li>
+            <li>
+                
+                  <p>二维码</p>
+            </li>
+            <li  class="top1">
+             
+                  <p>回到顶部</p>
+            </li>
+        </ul>
+    </div>
+   <div class="bottfoo">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-10 col-lg-10 col-sm-10 ">
+                  <div class="footer-center-left">
+                      <div class="left-font-top">工业互联网产业联盟版权所以有</div>
+  
+                      <ul class="left-font">
+                          <li>
+                              <span>指导单位:</span>
+                              <span>xxxxxx</span>
+                          </li>
+                          <li>
+                                  <span>秘书处单位:</span>
+                                  <span>xxxxxx</span>
+                          </li>
+                          <li>
+                                  <span>电话:</span>
+                                  <span>xxxxxx</span>
+                          </li>
+                          <li>
+                                  <span>邮箱:</span>
+                                  <span>xxxxxx</span>
+                          </li>
+                      </ul>
+                      <div class="left-icon">
+                            <div class="left-icon-box">
+                                <img src="../images/toutiao.gif" alt="">
+                                <p>头条</p>
+                            </div>
+                            <div class="left-icon-box">
+                             <img src="../images/weixin.gif" alt="">
+                               <p>微信</p>
+                            </div>
+                            <div class="left-icon-box">
+                               <img src="../images/youjian.gif" alt="">
+                               <p>邮箱</p>
+                            </div>
+                        </div>
+  
+                       <div class="footer-bottons">
+                           <p>友情链接: 工业和信息化部 | 中国信息通信院 | 美国工业互联网联盟 | 中国通信标准化协会</p>
+                       </div>
+                  </div>
+              </div>
+  
+              <div class="col-md-2 col-lg-2 col-sm-2 ">
+                  <div class="footer-center-right">
+                      <div class="footer-center-right-right">联系我们</div>
+                      <ul class="right-font">
+                          <li>生态合作</li>
+                          <li>加入联盟</li>
+                          <li>联系方式</li>
+                     
+                      </ul>
+                    
+              </div>
+              </div>
+          </div>
+      </div>
+  </div>
 </body>
 <script src="../jq/jq.js"></script>
   <script src="../bootstrap/bootstrap-3.3.7-dist//js/bootstrap.min.js"></script>
@@ -470,6 +661,43 @@
      $(document).ready(function() {
       $(".head").load("head.html");
       $("#footer").load("footer.html")
+
+      $(".searchs").click(function(e) {
+     
+     if( $(".search-top ").hasClass("show") ){
+       $(".searchs").attr("src","../images/search.png");
+   
+         // 执行隐藏
+         $(".search-top ").hide().removeClass("show");
+         // 其他
+     }else{
+         // 显示
+       $(".searchs").attr("src","../images/delete1.png");
+         $(".search-top ").show().addClass("show");
+     }
+ });
+      
+      function gotoTop(minHeight){
+ 
+ // 定义点击返回顶部图标后向上滚动的动画
+ $(".top1").click(
+     function(){$('html,body').animate({scrollTop:'0px'},'slow');
+ })
+
+ // 获取页面的最小高度，无传入值则默认为600像素
+ minHeight? minHeight = minHeight:minHeight = 600;
+
+ // 为窗口的scroll事件绑定处理函数
+ $(window).scroll(function(){
+
+     // 获取窗口的滚动条的垂直滚动距离
+     var s = $(window).scrollTop();
+
+     // 当窗口的滚动条的垂直距离大于页面的最小高度时，让返回顶部图标渐现，否则渐隐
+   
+ });
+};
+         gotoTop();
     
     });
   </script>

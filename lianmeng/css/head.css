@@ -1,5 +1,8 @@
 
-
+.container{
+    width: 1300px !important;
+    padding: 0 !important;
+}
 
 
 .navbar{
@@ -24,26 +27,51 @@
     top: 0;
    
 }
-
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #555;
     background-color: #ffffff;
 }
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 22px 0;
+   margin-right: 10px;
+    /* border-bottom: 2px solid #4279e0; */
+}
+.nav>li>a:hover{
+    border-bottom: 2px solid #4279e0;
+    color: #4279e0 !important;
+}
+.nav>li {
+    height: 64px !important;
+    line-height: 64px !important;
+    /* margin-right: 34px; */
+}
+
+.navbar-nav{
+    height: 64px;
+}
 .nav>li{
     height:36px;
     line-height: 36px;
-    margin-right: 34px;
+    /* margin-right: 34px; */
  
 }
 .nav>li:nth-child(1){
-    margin-left: 120px;
-    border-bottom: 2px solid #4279e0;
+    margin-left: 150px;
+  
+}
+
+.zuixss{
+    margin-right: 0 !important  ;
+  
 }
 
 .nav>li>a {
     position: relative;
     display: block;
     padding: 22px 0 ;
+    margin-left: 30px;
 }
 .btn-default {
     width: 82px;
@@ -53,7 +81,7 @@
     color: #ffffff;
     background-color: #0092ee;
     border-color: #ccc;
-    margin-top: 4px;
+    margin-top: 4px;margin-left: 20px;
 }
 .headimg{
     position: absolute;
@@ -62,7 +90,7 @@
     width: 170px;
     height: 50px;
     margin-top: 10px;
-    margin-left: 23px;
+    /* margin-right: 80px; */
 }
 .navbar-brand {
     float: left;
@@ -74,6 +102,11 @@
 .collapse navbar-collapse{
     padding: 0;
 }
+
+.searchs{
+    margin-left: -20px;
+    margin-top: 10px;
+}
 @media (max-width:992px){
     .nav>li:nth-child(1){
         margin-left: 0;
@@ -81,29 +114,113 @@
     }
 } 
 
-
-/* .navbar-default {
-    background-color: #ffffff;
-    border-color: #ffffff;
-}
-.dingji-top ul {
- 
-    height: 50px;
-    display: flex;
-}
-.dingji-top ul li{
-   
-    height: 50px;
-    margin-right: 22px;
-   
-   
-    text-align: center;
-    line-height: 50px;
-}
-.dingji-top ul li:nth-child(1){
+@media (max-width:768px){
+    .container{
+        width: 100% !important;
+    }
+    .navbar{
+        width: 100%;
+        height: 64px;
+        margin-bottom: 0%;
+    }
+    .navbar-header{
+        width: 170px;
+        height: 64px;
+        
+    }
+    .navbar-default {
+        background-color: #ffffff;
+        border-color: #ffffff;
+    }
+    .container{
+        position: relative;
+    }
+    .navbar-toggle {
+        position: absolute;
+        right: 0;
+        top: 0;
+       
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+        color: #555;
+        background-color: #ffffff;
+    }
+    .nav>li>a {
+        position: relative;
+        display: block;
+        padding: 22px 0;
+        /* margin-right: 10px; */
+        /* border-bottom: 2px solid #4279e0; */
+    }
+    .nav>li>a:hover{
+        border-bottom: 2px solid #4279e0;
+        color: #4279e0 !important;
+    }
+    .nav>li {
+        height: 64px !important;
+        line-height: 64px !important;
+        /* margin-right: 34px; */
+    }
     
+    .navbar-nav{
+        height: 300px;
+        /* height: 64px; */
+    }
+    .nav>li{
+        height:100%;
+        line-height: 36px;
+        float: left;
+        /* margin-right: 34px; */
+     
+    }
+    .nav>li:nth-child(1){
+        /* margin-left: 150px; */
+      
+    }
+    
+    .zuixss{
+        margin-right: 0 !important  ;
+      
+    }
+    
+    .nav>li>a {
+        position: relative;
+        display: block;
+        padding: 22px 0 ;
+        margin-left: 30px;
+    }
+    .btn-default {
+        width: 82px;
+        /* height: 33px; */
+        border-radius: 13px;
+        line-height: 20px;
+        color: #ffffff;
+        background-color: #0092ee;
+        border-color: #ccc;
+        margin-top: 4px;margin-left: 20px;
+    }
+    .headimg{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 170px;
+        height: 50px;
+        margin-top: 10px;
+        /* margin-right: 80px; */
+    }
+    .navbar-brand {
+        float: left;
+        height: 50px;
+        padding: 0;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .collapse navbar-collapse{
+        padding: 0;
+    }
+    
+    .searchs{
+        margin-left: -20px;
+        margin-top: 10px;
+    }
 }
-.dingji-top ul li:nth-child(8){
-    margin-right: 0;
-
-} */

@@ -26,7 +26,9 @@
     <div class="banner">
       <img src="../images/banner1.jpg" alt="" class="banner-img" />
     </div>
-
+    <div class="jiantous"> 
+        <div class="jiantou"><img src="../images/shang.png" alt=""></div>  
+    </div>
     <div class="pingtai">
       <div class="pingtai-center">
         <!-- 供方  -->
@@ -157,6 +159,32 @@
     $(document).ready(function() {
       $(".container").load("head.html");
       $("#footer").load("footer.html");
+      
+      function gotoTop(minHeight){
+ 
+ // 定义点击返回顶部图标后向上滚动的动画
+ $(".jiantou").click(
+     function(){$('html,body').animate({scrollTop:'0px'},'slow');
+ })
+
+ // 获取页面的最小高度，无传入值则默认为600像素
+ minHeight? minHeight = minHeight:minHeight = 600;
+
+ // 为窗口的scroll事件绑定处理函数
+ $(window).scroll(function(){
+
+     // 获取窗口的滚动条的垂直滚动距离
+     var s = $(window).scrollTop();
+
+     // 当窗口的滚动条的垂直距离大于页面的最小高度时，让返回顶部图标渐现，否则渐隐
+     if( s > minHeight){
+         $(".jiantou").fadeIn(500);
+     }else{
+         $(".jiantou").fadeOut(500);
+     };
+ });
+};
+gotoTop();
     });
   </script>
 </html>
